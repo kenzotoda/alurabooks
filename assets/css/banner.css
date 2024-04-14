@@ -32,5 +32,6 @@
     color: var(--branco);
     background: url("../img/Vector.svg");
     background-repeat: no-repeat;
-    background-position: 10px;
+    background-position: 1px;
+    padding-left: 16px;
 }
