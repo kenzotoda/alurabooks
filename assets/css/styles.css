@@ -1,6 +1,9 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("footer.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -15,7 +18,7 @@
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
-    font-size: 16px;  /* na maioria dos projetos a fonte padrão de descrição é 16px */
+    font-size: 1rem;  /* na maioria dos projetos a fonte padrão de descrição é 16px */
     font-weight: 400;
 }
 
