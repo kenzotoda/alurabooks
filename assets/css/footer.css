@@ -4,5 +4,54 @@ hr {
 
 .rodape {
     background-color: var(--branco);
-    padding: 16px;
+    padding: 1rem;
+}
+
+.educacao {
+    display: none;
+}
+
+.educacao-online {
+    display: none;
+}
+
+.comunidade {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .educacao {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .educacao__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .educacao__link {
+        text-decoration: none;
+    }
+
+    .educacao-online {
+        display: block;
+    }
+    
+    .comunidade {
+        display: block;
+    }
+    
+    .rodape {
+        display: flex;
+        gap: 100px;
+        padding: 60px 25px;
+    }
+    
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+
 }

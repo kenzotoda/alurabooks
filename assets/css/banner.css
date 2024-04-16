@@ -6,7 +6,7 @@
 }
 
 .banner__titulo {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -17,22 +17,36 @@
 
 .banner__pesquisa {
     background-color: transparent;
-    border: 1px solid var(--branco);
+    border: .0625rem solid var(--branco);
     color: var(--branco);
-    border-radius: 24px;
-    padding: 16px;
+    border-radius: 1.5rem;
+    padding: 1rem;
     width: 100%;
     outline: none;
 }
 
 .banner__pesquisa::placeholder {
     font-family: var(--fonte-principal);
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
     text-align: center;
     color: var(--branco);
     background: url("../img/Vector.svg");
     background-repeat: no-repeat;
-    background-position: 1px;
-    padding-left: 16px;
+    background-position: .0625rem;
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 60px 0;
+    }
+    
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
 }
