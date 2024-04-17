@@ -42,14 +42,24 @@ hr {
 
     .rodape {
         display: flex;
-        gap: 80px;
-        padding: 60px 25px;
+        justify-content: space-around;
+        padding: 60px 120px;
         font-size: 14px;
+        
     }
     
     .rodape__titulo {
         font-size: 24px;
     }
+}
 
+@media screen and (min-width: 1728px) {
+    .box__lista {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1rem;
+    }
 
+    .box__link:hover {
+        color: dodgerblue;
+    }
 }
