@@ -87,6 +87,7 @@
 
     .opcoes {
         display: flex;
+        align-items: center;
     }
 
     .opcoes__item {
@@ -126,16 +127,16 @@
         color: var(--preto);
     }
 
-    /* .opcoes__item:hover {
-        
+    
+    .opcoes__item:hover {
+        cursor: pointer;
+        background-color: var(--azul);
+        color: var(--branco);
+        padding: 28px 16px;
     }
 
     .opcoes__link:hover {
-        
-    } */
-
-    .opcoes__item:hover {
-        cursor: pointer;
+        color: var(--branco);
     }
 
     .cabeçalho {
@@ -149,5 +150,17 @@
 
     .container__texto {
         display: block;
+    }
+
+    .container__link:hover {
+        font-weight: 700;
+    }
+
+    .lista-menu__item:hover {
+        background-color: var(--azul);
+    }
+
+    .lista-menu__link:hover {
+        color: var(--branco);
     }
 }
